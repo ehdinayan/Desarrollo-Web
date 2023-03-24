@@ -26,4 +26,4 @@ Aquí se muestra una estructura básica de página web con CSS local que incluye
 
 
 
-![imagen](htmlBasico.png)
+![](diseñoBasico.png)
