@@ -24,7 +24,6 @@ Se usa frecuentemente para separar contenido temático, o para generar columnas 
 
 Aquí se muestra una estructura básica de página web con CSS local que incluye todas las estructuras explicadas recientemente salvo `<div>` (irían distribuídas dentro de las otras secciones):
 
-*Pendiente de revisar por qué no aparece la imagen xd...*
 
 
 
