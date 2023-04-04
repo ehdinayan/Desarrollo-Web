@@ -6,7 +6,7 @@ HTML define varios elementos para determinar el propósito de cada palabra, fras
 
 `<h1>` Es la etiqueta para declarar un título. HTML permite declarar también hasta seis niveles de subtítulos, que irán de `<h2>` a `<h6>`
 
-Por ejemplo, en el documento creado en la sección anterior se incluye el título se la páfina. Como este es el título principal, devería representarse con el elemento `<h1>`, como en el siguiente ejemplo:
+Por ejemplo, en el documento creado en la sección anterior se incluye el título se la página. Como este es el título principal, debería representarse con el elemento `<h1>`, como en el siguiente ejemplo:
 
 ```
 <header>
@@ -17,7 +17,9 @@ Si añadimos el nuevo elemento a nuestro código anterior, tenemos algo como lo 
 
 ![](header.png)
 
-Ahora veremos fiferentes elementod que ofrece HTML para representar diferentes elementos de texto:
+## Otros elementos de texto
+
+Ahora veremos diferentes elementos que ofrece HTML para representar diferentes elementos de texto:
 
 - `<p>` **párrafo**
 
@@ -28,7 +30,7 @@ Ahora veremos fiferentes elementod que ofrece HTML para representar diferentes e
 - `<p>` **párrafo**
 
 Podemos usar `<p>` para dar formato a las citas de nuestro ejemplo.
-Hay que condiderar que este elemento no considera los saltos de línea a la hora de mostrar el texto, de igual manera si un párrafo contiene más de un espacio, el elemento `<p>` los reduce a un caracter.
+Hay que considerar que este elemento no considera los saltos de línea a la hora de mostrar el texto, de igual manera si un párrafo contiene más de un espacio, el elemento `<p>` los reduce a un caracter.
 
 Por ello, cuando deseemos fidelizar unos saltos de línea es recomendable usar `<pre>`:
 
@@ -68,7 +70,7 @@ Así escribiríamos el texto anterior usando `<br>` en vez de `<pre>`:
 
 - `<b>` **igual que \<strong> cuando la anterior no resulta apropiada por algún motivo**
 
-Ahora recreamos el texto anterior usando los nuevos elementos asi:
+Ahora recreamos el texto anterior usando los nuevos elementos así:
 
 ```
 <article>
