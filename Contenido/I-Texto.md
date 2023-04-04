@@ -15,7 +15,7 @@ Por ejemplo, en el documento creado en la sección anterior se incluye el títul
 ```
 Si añadimos el nuevo elemento a nuestro código anterior, tenemos algo como lo siguiente:
 
-![](header.png)
+![](Media/header.png)
 
 ## Otros elementos de texto
 
@@ -45,7 +45,7 @@ Por ello, cuando deseemos fidelizar unos saltos de línea es recomendable usar `
 ```
 Si reemplazamos este texto en nuestro documento anterior y añadimos también el elemento `<p>` a las citas del segundo `<article>` tendremos algo así:
 
-![](texto.png)
+![](Media/texto.png)
 
 Se aprecia el espacio que genera automáticamente la etiqueta `<p>` y el formato por defecto que asigna la etiqueta `<pre>`
 
@@ -79,4 +79,4 @@ Ahora recreamos el texto anterior usando los nuevos elementos así:
 ```
 y vemos lo siguiente:
 
-![](texto2.png)
+![](Media/texto2.png)

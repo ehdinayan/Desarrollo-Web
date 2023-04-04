@@ -30,4 +30,4 @@ Como todos estos elementos representan información específica, normalmente se 
 
 Ahora tras expandir el `<article>` del ejemplo anterior con nuevos elementos, tenemos lo siguiente:
 
-![](texto3.png)
+![](Media/texto3.png)
