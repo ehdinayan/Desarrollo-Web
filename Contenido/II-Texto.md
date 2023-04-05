@@ -67,3 +67,5 @@ y más abajo en la página acceder a ello desde un elemento `<p>`:
 </section>
 ```
 Al pulsar en "Volver" el navegador volverá para el `<header>`
+
+Esto lo expliqué también en mi primer repositorio de desarrollo web, dejo aquí el [enlace](https://ehdinayan.github.io/E01-format/)
