@@ -69,3 +69,24 @@ y más abajo en la página acceder a ello desde un elemento `<p>`:
 Al pulsar en "Volver" el navegador volverá para el `<header>`
 
 Esto lo expliqué también en mi primer repositorio de desarrollo web, dejo aquí el [enlace](https://ehdinayan.github.io/E01-format/)
+
+Otra cosa que el navegador hará es llamar a aplicaciones si usamos la palabra **mailto** o **tel** como valor dentro del atributo *href* en una marca enlace `<a>`:
+
+```
+<footer>
+  <address>Barcelona, Spain</address>
+  <small>&copy; 2023 <a href="mailto:info@aml.com">J.D Gauchat</a></small>
+</footer>
+```
+Con eso tenemos el siguiente resultado: el navegador abre el programa de correo al pulsar en el enlace **mailto** de la línea `&copy`.
+
+![](Media/mailto.png)
+
+Además HTML proporciona otros elementos para propiciar que otras cosas ocurran, como descargar un documento en lugar de abrirlo en el navegador y activar algún código en el servidor al momento de hacer click en el enlace. Esto se logra con los atributos **download** y **ping** respectivamente:
+
+```
+<footer>
+  <a href="http://www.formasterminds.com/content/miarchivo.pdf" ping="http://www.formasterminds.com/control.php" download>Clic aquí para descargar</a>
+</footer>
+```
+En el código anterior, al pulsar en enlace se ejecuta en el servidor el código php contenido en el fichero **control.php** y el **navegador abre el gestor de archivos local** para ubicar la descarga, en caso de que no haya una ubicación preseleccionada por defecto. Esto último no ocurre si eliminamos el atributo **download**
