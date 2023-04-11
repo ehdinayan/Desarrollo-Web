@@ -51,7 +51,38 @@ Desarrolleremos du contenido con los siguientes elementos:
 
 `<textarea>` **crea un campo de entrada para insertar múltiples líneas de texto. El tamaño se puede declarar con números enteros usando los atributos rows y cols, o en píxeles con CSS como se verá más adelante.**
 
+Aquí podemos introducir no sólo una línea de texto, sino varias o las que quepan según esté definido por los atributos *cols* - anchura y *rows* - altura:
+
+```
+<form name="formulario" method="get" action="procesar.php">
+  <p><label>Texto: <textarea name="texto" cols="50" rows="6"></textarea></label></p>
+  <p><input type="submit" value="Enviar"></p>
+</form>
+```
+
+![](Media/form9.png)
+
 `<select>` **trabaja junto con el elemento `<option>` para definir cada opción en una lista de opciones y también con `<optgroup>` para  organizar las opciones en grupos.**
+
+Cuando el usuario hace clic en el elemento, la lista se muestra en la ventana desplegable, y luego el valor seleccionado por el usuario se muestra en el campo. El usuario no puede insertar valores distintos a los incluidos en la lista debido a que `<select>` no genera un área de entrada:
+
+```
+<form name="formulario" method="get" action="procesar.php">
+  <p>
+    <label for="listado">Libros: </label>
+    <select name="libro" id="listado">
+      <option value="1">IT</option>
+      <option value="2">Carrie</option>
+      <option value="3">El Resplandor</option>
+      <option value="4">Misery</option>
+    </select>
+  </p>
+  <p><input type="submit" value="Enviar"></p>
+</form>
+```
+Obtenemos el siguiente desplegable, aunque no puedo hacer la captura estando desplegado:
+
+![](Media/form10.png)
 
 `<button>` **crea un botón que puede tener varias funciones dependiendo del valor del atributo type. Puede ser submit para enviar los datos, reset para reiniciarlo o button para realizar tareas personalizadas.**
 
@@ -62,35 +93,3 @@ Como no es mi intención reproducir el libro, dejaré que los elementos vayan ap
 Para incluir un formulario en nuestro documento, tenemos que declararlo con el elemento `<form>` y luego añadir todos los demás elementos que el usuario necesitará para insertar la información y enviarla al servidor.
 
 La información insertada en el formulario se envía al servidor para ser procesada. Para que el servidor pueda identificar cada valor, los elementos deben incluir el atributo *name*. Con el podemos asignar un nombre único a cada elemento.
-
-Los formularios necesitan descripciones que le indiquen al usuario los datos que puede introducir. Esto se hace con el elemento `<label>`. Para asociar cada marca con su elemento correspondiente en el formulario, podemos incluir el elemento de formulario dentro del elemento `<label>`.
-
-```
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <title>Formularios</title>
-</head>
-<body>
-  <section>
-    <form name="formulario" method="get" action="procesar.php">
-      <p>
-        <label>Nombre: <input type="text" name="nombre"></label>
-      </p>
-      <p>
-        <label>Edad: <input type="text" name="edad"></label>
-      </p>
-      <p><input type="submit" value="Enviar"></p>
-    </form>
-  </section>
-</body>
-</html>
-```
-
-Se puede usar el atributo *value* para indicar el texto que nos gustaría que apareciese en el botón en lugar de la opción por defecto
-"submit".
-
-Con eso obtenemos el siguiente resultado:
-
-![](Media/form.png)

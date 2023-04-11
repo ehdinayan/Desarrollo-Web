@@ -1,5 +1,27 @@
 # Formularios - 2ª parte
 
+Los formularios necesitan descripciones que le indiquen al usuario los datos que puede introducir. Esto se hace con el elemento `<label>`. Para asociar cada marca con su elemento correspondiente en el formulario, podemos incluir el elemento de formulario dentro del elemento `<label>`.
+
+```
+<form name="formulario" method="get" action="procesar.php">
+  <p>
+    <label>Nombre: <input type="text" name="nombre"></label>
+  </p>
+  <p>
+    <label>Edad: <input type="text" name="edad"></label>
+  </p>
+  <p><input type="submit" value="Enviar"></p>
+</form>
+
+```
+
+Se puede usar el atributo *value* para indicar el texto que nos gustaría que apareciese en el botón en lugar de la opción por defecto
+"submit".
+
+Con eso obtenemos el siguiente resultado:
+
+![](Media/form.png)
+
 El mismo atributo *value* también se puede usar para incluir valores iniciales en campos del formulario, de forma que aparecerán ya cumplimentados con la información que ya se conocía.
 
 - `<maxlenght>` **especifica el máx núm de caracteres que se puede incluir en un campo.**
