@@ -45,7 +45,7 @@ En un formulario básico, tendríamos los atributos `name`, `method` y `action`,
 ```
 
 **procesar.php** es el archivo que se ejecutará en el servidor para procesar la información y devolver el resultado. En este punto no se vería nada en el navegador porque el formulario se ha declarado vacío.
-Desarrolleremos du contenido con los siguientes elementos:
+Desarrollaremos su contenido con los siguientes elementos:
 
 `<input>` **crea un campo de entrada, que puede ser de diferente tipo dependiendo del valor  que se de al atributo type.**
 

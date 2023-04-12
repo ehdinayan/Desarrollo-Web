@@ -58,7 +58,7 @@ Con lo que nos aparecerá lo siguiente:
 
 ![](Media/form3.png)
 
-También hay otros valores para el atributo type que nos permiten personalizar aún más nuestuos formularios.
+También hay otros valores para el atributo type que nos permiten personalizar aún más nuestros formularios.
 
 El tipo **radio** crea un botón circular que se resalta cuando se selecciona. Esto permite crear listas de valores que el usuario puede seleccionar con solo hacer click en el botón correspondiente.
 
