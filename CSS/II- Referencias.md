@@ -55,3 +55,38 @@ y en la regla CSS habrá:
   font-size:20px;
 }
 ```
+
+## Atributo class
+
+Para referenciar un elemento usando su atributo class, el selector debe incluir el valor del atributo precedido por un punto:
+
+Aquí tenemos la referencia en el documento HTML:
+
+```
+<section>
+  <p class="mitexto">Frase 1</p>
+  <p class="mitexto">Frase 2</p>
+  <p>Frase 3</p>
+  <p>Frase 4</p>
+</section>
+```
+
+...y aquí la regla CSS correspondiente:
+
+```
+.mitexto
+{
+  font-size:20px;
+}
+```
+
+Las clases también se pueden declarar como exclusivas para un tipo específico de elemento declarando el nombre del elemento antes del punto:
+
+```
+p.mitexto
+{
+  font-size:20px;
+}
+```
+
+La regla anterior referencia a la clase *mitexto*, pero sólo a los elementos `<p>`.
