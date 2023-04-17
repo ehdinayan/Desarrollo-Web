@@ -73,6 +73,7 @@ O usando una sola línea de código:
 
 ![](Media/formato2.png)
 
+
 - **word-spacing** define el ancho del espacio entre palabras. Puede ser declarado en píxeles, porcentaje o en cualquiera de las unidades de CSS que vimos en font-size.
 
 ```
@@ -86,3 +87,12 @@ O usando una sola línea de código:
 }
 ```
 ![](Media/formato3.png)
+
+- **text-decoration** resalta el texto con una línea, los valores disponibles son *underline, overline,line-through, y none.* Es particularmente útil para los enlaces. Por defecto los navegadores muestran los enlaces subrayados en azul. Para que no fuera así, podríamos implementar la siguiente regla en nuestro fichero de estilos:
+
+```
+a
+{
+  text-decoration:none;
+}
+```
