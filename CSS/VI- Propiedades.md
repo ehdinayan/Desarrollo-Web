@@ -3,7 +3,7 @@
 ## Continuación propiedades de formato para Texto
 
 
-- **vertical-align** se usa frecuentemente para alinear texto con imágenes (la propiedad se aplica a la imagen). Los valores disponibles son *baseline, top, bottom, sub, super, text-top, text-bottom y middle.
+- **vertical-align** se usa frecuentemente para alinear texto con imágenes (la propiedad se aplica a la imagen). Los valores disponibles son *baseline, top, bottom, sub, super, text-top, text-bottom y middle.*
 
 Las fuentes usadas hasta ahora, *Verdana* y la alternativa *sans-serif* en caso de que la primera no esté disponible se encuentran en el grupo de fuentes conocidas como seguras, ya que se encuentran disponibles en la mayoría de ordenadores.
 
@@ -43,7 +43,7 @@ Aqui están las maneras en las que CSS permite declarar colores:
 
 - **hsla** se vuelve a añadir también un componente para la opacidad, alfa, con valores posibles entre 0 y 1.
 
-- **color** es la propiedad que se usa con más frecuencia, normalmente se declara usando el código hexadecimal o bien el nomnbre del color.
+- **color** es la propiedad que se usa con más frecuencia, normalmente se declara usando el código hexadecimal o bien el nombre del color.
 
 Ejemolo de regla asignando color:
 
@@ -53,7 +53,7 @@ Ejemolo de regla asignando color:
   color: #CCCCCC;
 }
 ```
-Como en este caso el nivel de rojo verde y azul son igualea, el color se encuentra en una escala de grises:
+Como en este caso el nivel de rojo verde y azul son iguales, el color se encuentra en una escala de grises:
 
 ![](Media/formato5.png)  
 
