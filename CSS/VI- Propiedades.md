@@ -88,3 +88,5 @@ Este es el color rojo obtenido con una saturación de 75% y luminosidad de 60%:
 
 
 *NOTA: Existe en CSS la propiedad opacity para declarar la opacidad de un elemento, lo que pasa es que presenta el problema de que si el elemento contiene a su vez elementos hijos, estos también heredarán la misma opacidad. Para evitarlo, nos valdremos de las funciones previamente explicadas (rgba y hsla) para declarar la opacidad de un elemento, así no hay que preocuparse de que otros elementos contenidos en el hereden los mismos valores.*  
+
+No es práctico encontrar los colores adecuados para nuestro sitio web a base de combinaciones de números y valores. Existen grandes herramientas online para estos fines como [www.colrohexa.com](https://www.colorhexa.com/) o [htmlcolorcodes.com](https://htmlcolorcodes.com/), que nos ayudarán a identificar más fácilmente el color de nuestro interés y sobretodo qué combinaciones nos pueden ir bien.
