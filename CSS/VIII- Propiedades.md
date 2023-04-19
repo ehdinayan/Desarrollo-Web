@@ -58,3 +58,40 @@ Cover expande la imagen hasta cubrir el borde del elemento y contain estira la i
   }
   ```
   ![](Media/formato14.png)
+
+## Bordes
+
+Los elementos pueden incluir un borde en los límites de la caja del elemento. Por defecto, los navegadores no muestran ningún borde, pero podemos usar las siguientes propiedades para definirlo:
+
+- **border-width** define el ancho del borde y se puede especificar el de cada lado por separado (**border-top**/superior, **border-right**/derecho, **border-bottom**/inferior, **border-left**/izquierdo) o los cuatro valores separados por un espacio en la misma línea, o un mismo valor para todos los lados.
+
+- **border-style** también se pueden definir los valores como en la propiedad anterior. Los estilos que hay son *none, hidden, dotted (punteado), dashed (con línea discontínua), solid, double, groove (con profundidad), ridge (enmarcado), inset (sombreado arriba y a la izquierda), outset (sombreado a la derecha y abajo).*
+
+- **border-color** también se pueden definir los valores como en la propiedades anteriores.
+
+- **border** permite asignar los valores de todas las propiedades empezando por la *anchura*, el *estilo* y el *color* en la misma línea con un espacio entre los valores.
+
+Unos ejemplos de bordes con diferentes estilos:
+
+```
+header{
+  border-style: solid;
+  border-width: 2px;
+  margin: 30px;
+  padding:15px;
+  background: #ffbd33 url("Media/ladrillosclaros.jpg") repeat-y;
+}
+```
+![](Media/formato15.png)
+
+```
+header{
+  header{
+    border: 2px dashed red;
+    margin: 30px;
+    padding:15px;
+    background: #ffbd33 url("Media/ladrillosclaros.jpg") repeat-y;
+}
+```
+
+![](Media/formato16.png)
