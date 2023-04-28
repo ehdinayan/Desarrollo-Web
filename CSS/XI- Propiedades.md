@@ -71,9 +71,9 @@ Los filtros agregan efectos a un elemento y su contenido. CSS incluye la propied
 
   ![](Media/filtros.png)
 
-- **grayscale(valor)**convierte los colores de una imagen a escala de grises. Valor en núm decimales entre 0 y 1.
+- **grayscale(valor)** convierte los colores de una imagen a escala de grises. Valor en núm decimales entre 0 y 1.
 
-- **drop-shadow(x,y, tamaño, color)**genera una sombra con los valores de los atributos indicados:
+- **drop-shadow(x,y, tamaño, color)** genera una sombra con los valores de los atributos indicados:
 
   `filter: drop-shadow(5px 5px 1px #000000);`
 
