@@ -134,4 +134,4 @@ Los filtros agregan efectos a un elemento y su contenido. CSS incluye la propied
 
   ![](Media/filtros6.png)
 
-  - **opacity(valor)** acepta valores entre 0 y 1, siendo 0 totalmente transparente y 1 totalmente opaco.
+- **opacity(valor)** acepta valores entre 0 y 1, siendo 0 totalmente transparente y 1 totalmente opaco.
