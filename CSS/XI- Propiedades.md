@@ -1,4 +1,4 @@
-# Propiedeades - 7ª parte
+# Propiedades - 7ª parte
 
 ## Continuación Gradientes
 
