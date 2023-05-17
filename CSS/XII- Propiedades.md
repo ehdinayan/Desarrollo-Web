@@ -134,3 +134,32 @@ Podemos modificar la posición, tamaño y apariencia de los elementos HTML con e
   Como se puede observar, aunque el elemento padre ha sido dotado de *perspectiva*, solo aparece girado el elemento al que se le aplica rotación (header):
 
   ![](Media/tranformaciones7.png)
+
+  Todas las funciones vistas hasta el momento modifican el documento, pero una vez que el mismo se ha cargado, permanece igual. Para dotar de más dinamismo al documento HTML podemos usar una seudoclase como **:hover**.
+
+  En el siguiente ejemplo haremos que la cabecera rote ligeramente al pasar el ratón por encima y modificaremos también el aspecto de la imagen:
+
+  ```
+  body {
+    perspective: 800px;
+    perspective-origin: right;
+  }
+
+  header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+  }
+  header:hover {
+    transform:rotate3d(0, 1, 0,45deg);
+  }
+
+  .plane img {
+    width:350px;
+  }
+
+  img:hover {
+    transform:rotate3d(5, 1, 0,45deg);
+  }
+  ```
